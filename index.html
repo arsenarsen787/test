@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
+<meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+
 <body>
 
-<a rel="ar"
-href="intent://arvr.google.com/scene-viewer/1.0
-?file=https://YOUR_SITE/test.glb
-&mode=ar_only
-#Intent;scheme=https;
-package=com.google.ar.core;
-action=android.intent.action.VIEW;
-end;">
-
-Открыть AR
-
+<a rel="ar" href="test.usdz">
+<img src="" alt="">
 </a>
 
 <script>
-window.location.href =
-"intent://arvr.google.com/scene-viewer/1.0?file=https://YOUR_SITE/model.glb&mode=ar_only#Intent;scheme=https;package=com.google.ar.core;action=android.intent.action.VIEW;end;";
+document.querySelector("a").click();
 </script>
 
 </body>
